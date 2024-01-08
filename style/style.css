@@ -237,6 +237,7 @@ header .innerBox0 h3{
     text-align: center;
     line-height: 22px;
     margin-top: 20px;
+    z-index: 1;
 }
 .contantBox5{
     position: relative;
