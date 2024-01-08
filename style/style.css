@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 140px;
+    margin-top: 50px;
 }
 header{
     width: 1200px;
@@ -237,4 +237,183 @@ header .innerBox0 h3{
     text-align: center;
     line-height: 22px;
     margin-top: 20px;
+}
+.contantBox5{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-top: 80px;
+}
+.contantBox5 .c5Img1{
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 5%;
+    z-index: 1;
+}
+.contantBox5 .c5Img2{
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+.contantBox5 .c5Img3{
+    position: absolute;
+    bottom: 0;
+    left: -3%;
+    margin-bottom: 90px;
+}
+.contantBox6{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contantBox6 section{
+    display: flex;
+    margin: 40px 0;
+}
+.contantBox6 .content6S1{
+    flex-direction: column;
+}
+.contantBox6 section h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+line-height: 1.2em;text-transform: capitalize;
+}
+.contantBox6 section h2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+.contantBox6 section p{
+    width: 70%;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+.contantBox6 section.content6S2{
+    flex-wrap: wrap;
+}
+.contantBox6 section.content6S2 img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-bottom: 20px;
+}
+.contantBox6 section.content6S2 img:hover{
+    scale: .9;
+    translate: 10px 20px;
+}
+.contantBox7{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contantBox7 img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+.contantBox7 h2{
+    color: #070210;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.contantBox7 p{
+    width: 80%;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    line-height: 22px;
+    margin: 20px 0;
+}
+.contantBox7 .inputBox{
+    width: 500px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 0 6px rgba(7, 2, 17, 0.2);
+}
+.contantBox7 .inputBox input{
+    width: 70%;
+    border: none;
+    background: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 600;    
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.contantBox7 .inputBox button{
+    width: 30%;
+    background: #F00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;    
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+footer{
+    width: 1340px;
+    height: 400px;
+    background: #070210;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+footer span{
+    width: 80%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+footer .fBox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .fBox p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+footer .fBox .box p img{
+    margin-right: 10px;
+}
+footer .fBox .box p a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .fBox2{
+    display: flex;
+    gap: 15px;
 }
